@@ -1,8 +1,29 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
 
-h1{
+h1 {
     color: red;
+}
+.laboral {
+    background-color: lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.educacion {
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.portafolio {
+    background-color: lightgreen;
+    padding: 10px;
+    margin-bottom: 20px;
+    height: 200px;
+}
+.laboral h2, .educacion h2, .portafolio h2 {
+    color: darkblue;
 }
